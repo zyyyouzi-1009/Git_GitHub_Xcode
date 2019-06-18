@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GettingStartedFollowAlong" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="n6K-li-zEe">
+                                <rect key="frame" x="20" y="64" width="374" height="132.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weclome To Git!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLY-V0-n7j">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="56.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Meal Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LdI-Wc-qSH">
+                                        <rect key="frame" x="0.0" y="64.5" width="374" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ag-tv-Qpd">
+                                        <rect key="frame" x="0.0" y="102.5" width="374" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aLY-V0-n7j" firstAttribute="leading" secondItem="n6K-li-zEe" secondAttribute="leading" id="4bt-Kf-D6p"/>
+                                    <constraint firstAttribute="trailing" secondItem="LdI-Wc-qSH" secondAttribute="trailing" id="Bsj-d5-HOf"/>
+                                    <constraint firstAttribute="trailing" secondItem="aLY-V0-n7j" secondAttribute="trailing" id="HEA-MH-LxL"/>
+                                    <constraint firstItem="4ag-tv-Qpd" firstAttribute="trailing" secondItem="LdI-Wc-qSH" secondAttribute="trailing" id="JWK-aV-oVz"/>
+                                    <constraint firstItem="LdI-Wc-qSH" firstAttribute="leading" secondItem="n6K-li-zEe" secondAttribute="leading" id="LNy-kK-d0l"/>
+                                    <constraint firstItem="aLY-V0-n7j" firstAttribute="top" secondItem="n6K-li-zEe" secondAttribute="top" id="p2N-eO-dWW"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n6K-li-zEe" firstAttribute="leading" secondItem="Xe5-5W-611" secondAttribute="leading" constant="20" id="btN-b4-TV2"/>
+                            <constraint firstItem="n6K-li-zEe" firstAttribute="top" secondItem="Xe5-5W-611" secondAttribute="top" constant="20" id="gAS-IE-9FX"/>
+                            <constraint firstItem="Xe5-5W-611" firstAttribute="trailing" secondItem="n6K-li-zEe" secondAttribute="trailing" constant="20" id="yPH-Zl-HLa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xe5-5W-611"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>
